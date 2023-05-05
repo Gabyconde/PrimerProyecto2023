@@ -1,0 +1,95 @@
+.presentacion{
+  background-image: url("images/20181013_160256.jpg");
+  contain: content;
+  background-repeat: repeat;
+  padding: 1rem;
+  color: white; 
+}
+.titulo{
+  background-color: lightsalmon;
+  padding: 40px;
+  text-align: center;
+  text-decoration: solid blue;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s;
+  font-size: 80px;
+}
+.Belleza{
+  align-items: center;
+}
+.Belleza div{
+  padding: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: circle;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin: 30px;
+  padding: 0;
+}
+
+nav ul li:hover {
+  display: inline-block;
+  position: relative;
+}
+nav ul li a {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(159, 124, 167);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: solid rgb(141, 100, 100);
+  border-radius: 1.5rem;
+  font-size: 4p40pxx;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul li:hover>ul {
+  display: block;
+  
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:rgb(236, 139, 139);
+  color: white;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+nav ul ul :hover{
+  background-color: lightgrey;
+  cursor: pointer;
+  animation:flipOutX;
+
+
+}
+nav ul ul li {
+  display: inline-block;
+}
+
+nav ul ul li a {
+  display: flex;
+  padding: 10px;
+  background-color:black;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul ul li a:hover {
+  background-color: #cc3030;
+  /* animation-duration:; */
+}
+.barra a{
+  color: white;
+}
+.Contacto::first-letter{
+  color: red;
+  font-size: 60px;
+}
